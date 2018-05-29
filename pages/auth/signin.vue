@@ -37,7 +37,7 @@
         })
 
         this.$router.push({
-          path: this.$route.query.redirect || '/books'
+          path: this.$route.query.redirect || '/'
         })
       }
     }
